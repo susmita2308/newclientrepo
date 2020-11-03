@@ -12,11 +12,12 @@ import { PageNotFoundComponent } from './shared/components/page-not-found/page-n
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatButtonModule } from '@angular/material/button';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatIconModule } from '@angular/material/icon';
-import { MatListModule } from '@angular/material/list';
+
+import { SharedModule } from './shared/shared.module';
+import { CategoriesComponent } from './layouts/frontend/components/categories/categories.component';
+import { LoginComponent } from './layouts/frontend/components/login/login.component';
+import { CartComponent } from './layouts/frontend/components/cart/cart.component';
+import { MaterialModule } from './shared/material/material.module';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,10 @@ import { MatListModule } from '@angular/material/list';
     PageNotFoundComponent,
     FooterComponent,
     HeaderComponent,
+    CategoriesComponent,
+    LoginComponent,
+    CartComponent,
+    
    
   ],
   imports: [
@@ -35,11 +40,8 @@ import { MatListModule } from '@angular/material/list';
     BrowserAnimationsModule,
     DragDropModule,
     LayoutModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatListModule
+   MaterialModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
