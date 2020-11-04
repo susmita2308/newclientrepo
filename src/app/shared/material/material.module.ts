@@ -6,15 +6,15 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
-import {MatDividerModule} from '@angular/material/divider';
+import {MatInputModule} from '@angular/material/input';
+
 const modules =[ MatIconModule, MatToolbarModule,
   MatButtonModule,
   MatSidenavModule,
   MatIconModule,
   MatListModule,
   MatCardModule,
-  MatFormFieldModule,
-  MatDividerModule
+  MatInputModule
   ]
 @NgModule({
   declarations: [],

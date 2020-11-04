@@ -49,7 +49,7 @@ import { MatListModule } from '@angular/material/list';
     BrowserAnimationsModule,
     DragDropModule,
     LayoutModule,
-   MaterialModule,
+    MaterialModule,
     SharedModule,
     FrontendModule,
     MatToolbarModule,
