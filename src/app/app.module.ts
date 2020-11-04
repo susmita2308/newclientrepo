@@ -22,6 +22,11 @@ import { FrontendModule } from './features/frontend/frontend.module';
 import { FrontendRoutingModule } from './features/frontend/frontend-routing.module';
 import { MatIconModule } from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +36,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     PageNotFoundComponent,
     FooterComponent,
     HeaderComponent,
+    DashboardComponent,
     // CategoriesComponent,
     // LoginComponent,
     // CartComponent,
@@ -46,6 +52,11 @@ import {MatFormFieldModule} from '@angular/material/form-field';
    MaterialModule,
     SharedModule,
     FrontendModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
    
    
   ],
