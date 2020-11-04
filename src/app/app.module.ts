@@ -14,13 +14,14 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { LayoutModule } from '@angular/cdk/layout';
 
 import { SharedModule } from './shared/shared.module';
-import { CategoriesComponent } from './layouts/frontend/components/categories/categories.component';
-import { LoginComponent } from './layouts/frontend/components/login/login.component';
-import { CartComponent } from './layouts/frontend/components/cart/cart.component';
+// import { CategoriesComponent } from './layouts/frontend/components/categories/categories.component';
+// import { LoginComponent } from './layouts/frontend/components/login/login.component';
+// import { CartComponent } from './layouts/frontend/components/cart/cart.component';
 import { MaterialModule } from './shared/material/material.module';
 import { FrontendModule } from './features/frontend/frontend.module';
 import { FrontendRoutingModule } from './features/frontend/frontend-routing.module';
-
+import { MatIconModule } from '@angular/material/icon';
+import {MatFormFieldModule} from '@angular/material/form-field';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,9 +31,9 @@ import { FrontendRoutingModule } from './features/frontend/frontend-routing.modu
     PageNotFoundComponent,
     FooterComponent,
     HeaderComponent,
-    CategoriesComponent,
-    LoginComponent,
-    CartComponent,
+    // CategoriesComponent,
+    // LoginComponent,
+    // CartComponent,
     
    
   ],
@@ -45,7 +46,8 @@ import { FrontendRoutingModule } from './features/frontend/frontend-routing.modu
     MaterialModule,
     SharedModule,
     FrontendModule,
-    FrontendRoutingModule
+    MatIconModule,
+    MatFormFieldModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
