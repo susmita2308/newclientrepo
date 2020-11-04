@@ -18,6 +18,8 @@ import { CategoriesComponent } from './layouts/frontend/components/categories/ca
 import { LoginComponent } from './layouts/frontend/components/login/login.component';
 import { CartComponent } from './layouts/frontend/components/cart/cart.component';
 import { MaterialModule } from './shared/material/material.module';
+import { FrontendModule } from './features/frontend/frontend.module';
+import { FrontendRoutingModule } from './features/frontend/frontend-routing.module';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { MaterialModule } from './shared/material/material.module';
     DragDropModule,
     LayoutModule,
    MaterialModule,
-    SharedModule
+    SharedModule,
+    FrontendModule,
+    FrontendRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

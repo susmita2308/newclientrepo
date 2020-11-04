@@ -5,8 +5,17 @@ import { FrontendComponent } from './layouts/frontend/frontend.component';
 import { PageNotFoundComponent } from './shared/components/page-not-found/page-not-found.component';
 
 const routes: Routes = [
- {path:'', component:BlankComponent },
-  {path:'',component:FrontendComponent},
+ {path:'', component:BlankComponent, 
+ children: [
+  {
+    path: '',
+    loadChildren: () =>
+      import('./features/frontend/frontend.module').then(
+        (m) => m.FrontendModule
+      ),
+  },
+], },
+  // {path:'',component:FrontendComponent},
   {path: '**', component:PageNotFoundComponent}
 ];
 
