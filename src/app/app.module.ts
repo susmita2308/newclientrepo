@@ -42,7 +42,7 @@ import { FrontendRoutingModule } from './features/frontend/frontend-routing.modu
     BrowserAnimationsModule,
     DragDropModule,
     LayoutModule,
-   MaterialModule,
+    MaterialModule,
     SharedModule,
     FrontendModule,
     FrontendRoutingModule

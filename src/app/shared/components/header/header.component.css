@@ -4,3 +4,16 @@
 .nav-link {
   color: black;
 }
+.header {
+  margin-bottom: 0;
+}
+
+.search-form > input {
+  border-radius: 2px;
+  margin-right: 5px;
+}
+.search-form > button {
+  background-color: white;
+  color: tomato;
+  height: 40px;
+}
