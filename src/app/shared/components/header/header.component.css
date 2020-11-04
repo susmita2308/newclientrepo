@@ -2,5 +2,8 @@
   flex: 1 1 auto;
 }
 .nav-link {
+  color: white;
+}
+.active {
   color: black;
 }
