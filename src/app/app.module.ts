@@ -46,6 +46,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MaterialModule,
     SharedModule,
     FrontendModule,
+    MatFormFieldModule
    
    
   ],
