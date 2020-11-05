@@ -7,7 +7,7 @@
         <p>
             <mat-form-field appearance="outline">
               <mat-label> Name </mat-label> 
-               <input class="input" matInput placeholder="NAME" formControlName="name"/>
+               <input class="input" matInput placeholder="Name" formControlName="name"/>
               </mat-form-field>
           </p>
           <p>
@@ -28,7 +28,13 @@
                <input class="input" matInput placeholder="password" formControlName="password"/>
               </mat-form-field>
           </p>
-             <button  mat-raised-button type="submit" style="color: black;">Submit</button>
+          <p>
+            <mat-form-field appearance="outline">
+              <mat-label> Address </mat-label> 
+               <input class="input" matInput placeholder="adress" formControlName="address"/>
+              </mat-form-field>
+          </p>
+             <button  mat-raised-button type="submit" style="color: black;" (click)="register()">Submit</button>
             <button  mat-raised-button type="reset" style="color: black;">Cancel</button>
         </div>
       </div> 
