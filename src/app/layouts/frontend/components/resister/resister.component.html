@@ -1,0 +1,36 @@
+
+<form [formGroup]="regForm">
+    <div class="card" style="width: 30rem;">
+         <div class="card-body">
+           <strong class="login1">REGISTARION</strong> <hr>
+        <mat-divider></mat-divider>
+        <p>
+            <mat-form-field appearance="outline">
+              <mat-label> Name </mat-label> 
+               <input class="input" matInput placeholder="NAME" formControlName="name"/>
+              </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="outline">
+              <mat-label> Mobile </mat-label> 
+               <input class="input" matInput placeholder="mobile" formControlName="mobile"/>
+              </mat-form-field>
+          </p>
+           <p>
+            <mat-form-field appearance="outline">
+              <mat-label > Email  </mat-label>
+              <input class="input" matInput placeholder="email" formControlName="email"/>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="outline">
+              <mat-label> Password </mat-label> 
+               <input class="input" matInput placeholder="password" formControlName="password"/>
+              </mat-form-field>
+          </p>
+             <button  mat-raised-button type="submit" style="color: black;">Submit</button>
+            <button  mat-raised-button type="reset" style="color: black;">Cancel</button>
+        </div>
+      </div> 
+    
+    </form>

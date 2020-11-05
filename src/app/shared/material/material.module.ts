@@ -7,6 +7,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
+import { ReactiveFormsModule } from '@angular/forms';
 
 const modules =[ MatIconModule, MatToolbarModule,
   MatButtonModule,
@@ -14,7 +15,9 @@ const modules =[ MatIconModule, MatToolbarModule,
   MatIconModule,
   MatListModule,
   MatCardModule,
-  MatInputModule
+  MatInputModule,
+  MatFormFieldModule,
+  ReactiveFormsModule,
   ]
 @NgModule({
   declarations: [],

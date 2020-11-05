@@ -27,6 +27,11 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { CoreComponent } from './core/core.component';
+import { ResisterComponent } from './layouts/frontend/components/resister/resister.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { CoreModule } from './core/core.module';
+import { MatInputModule } from '@angular/material/input';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +42,8 @@ import { MatListModule } from '@angular/material/list';
     FooterComponent,
     HeaderComponent,
     DashboardComponent,
+    CoreComponent,
+    ResisterComponent,
     // CategoriesComponent,
     // LoginComponent,
     // CartComponent,
@@ -49,7 +56,9 @@ import { MatListModule } from '@angular/material/list';
     BrowserAnimationsModule,
     DragDropModule,
     LayoutModule,
+    CoreModule,
     MaterialModule,
+    ReactiveFormsModule,
     SharedModule,
     FrontendModule,
     MatToolbarModule,
@@ -57,7 +66,8 @@ import { MatListModule } from '@angular/material/list';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-   
+    MatFormFieldModule,
+   MatInputModule
    
   ],
   providers: [],

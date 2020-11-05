@@ -1,26 +1,24 @@
+
+<form>
 <div class="card" style="width: 30rem;">
      <div class="card-body">
-       <strong>LOGIN</strong> <hr>
-
-       <!-- <mat-icon>redeem</mat-icon> -->
+       <strong class="login1">LOGIN</strong> <hr>
     <mat-divider></mat-divider>
        <p>
         <mat-form-field appearance="outline">
-          <mat-label> Email address or mobile number </mat-label>
+          <mat-label > Email address or mobile number </mat-label>
           <input class="input" matInput placeholder="email or mobile">
         </mat-form-field>
       </p>
+     
+      
       <p>
         <mat-form-field appearance="outline">
           <mat-label> Your Password </mat-label> 
-          
           <input class="input" matInput placeholder="password">
-         
-        </mat-form-field>
+          </mat-form-field>
       </p>
-     
-        
-        <button type="submit" style="color: black;">Submit</button>
+      <button mat-raised-button  type="submit" style="color: black;">Submit</button>
       
     </div>
   </div> 
@@ -30,7 +28,10 @@
 <hr>
 <p>
     <mat-form-field appearance="outline">
-     <button class="input"> Create New Ecommerce Account </button>
+
+       
+     <button > <a routerLink="/register" class="nav-link" > Create New Ecommerce Account </a> </button>
     </mat-form-field>
   </p>
 </div>
+</form>
