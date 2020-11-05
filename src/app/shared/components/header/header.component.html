@@ -1,4 +1,4 @@
-<div class="header">
+<!-- <div class="header">
 <p>
   <mat-toolbar color="warn">
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
@@ -23,4 +23,28 @@
      <a routerLink="/cart" class="nav-link" routerLinkActive="active">Cart</a> 
   </mat-toolbar>
 </p>
-</div>
+</div> -->
+
+<mat-toolbar color="warn">
+  <mat-toolbar-row>
+    <div class="one">
+    <mat-icon>add_shopping_cart</mat-icon>
+    <span>Ecommerce shopping center</span>
+  </div>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row>
+    <span class="example-spacer"></span>
+    <a routerLink="/categories" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" >Categories</a>
+    <a routerLink="/login" class="nav-link" routerLinkActive="active">Login</a>
+     <a routerLink="/cart" class="nav-link" routerLinkActive="active">Cart</a> 
+
+     <!-- <div class="search-form">
+     <button><input matInput type="text" placeholder="search products here"/></button> 
+      <button mat-button>
+        <mat-icon> search </mat-icon>
+      </button>
+    </div> -->
+
+    <button class="search"><input type="text" placeholder="search products here"/><button class="buttton"><mat-icon> search </mat-icon></button></button>
+  </mat-toolbar-row>

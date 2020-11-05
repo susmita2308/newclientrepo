@@ -1,0 +1,19 @@
+.card {
+  margin: auto;
+}
+/* .container {
+  width: 50vh;
+  margin: auto;
+  margin-top: 3vh;
+}
+.container h2 {
+  text-align: center;
+  color: #3f51b5;
+} */
+.mat-form-field {
+  width: 100%;
+}
+.action {
+  display: flex;
+  justify-content: space-evenly;
+}

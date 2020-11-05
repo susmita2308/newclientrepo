@@ -1,6 +1,6 @@
-.example-spacer {
+/* .example-spacer {
   flex: 1 1 auto;
-}
+} */
 .nav-link {
   color: white;
 }
@@ -10,13 +10,13 @@
 .header {
   margin-bottom: 0;
 }
-
-.search-form > input {
-  border-radius: 2px;
-  margin-right: 5px;
+.search {
+  margin-left: 700px;
 }
-.search-form > button {
-  background-color: white;
-  color: tomato;
-  height: 40px;
+.one {
+  margin: auto;
+  font-style: italic;
+}
+.buttton {
+  background-color: darkgoldenrod;
 }
