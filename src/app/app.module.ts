@@ -22,6 +22,16 @@ import { FrontendModule } from './features/frontend/frontend.module';
 import { FrontendRoutingModule } from './features/frontend/frontend-routing.module';
 import { MatIconModule } from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+import { CoreComponent } from './core/core.component';
+import { ResisterComponent } from './layouts/frontend/components/resister/resister.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { CoreModule } from './core/core.module';
+import { MatInputModule } from '@angular/material/input';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +41,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     PageNotFoundComponent,
     FooterComponent,
     HeaderComponent,
+    DashboardComponent,
+    CoreComponent,
+    ResisterComponent,
     // CategoriesComponent,
     // LoginComponent,
     // CartComponent,
@@ -43,7 +56,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     BrowserAnimationsModule,
     DragDropModule,
     LayoutModule,
+    CoreModule,
     MaterialModule,
+    ReactiveFormsModule,
     SharedModule,
     FrontendModule,
     MatFormFieldModule
