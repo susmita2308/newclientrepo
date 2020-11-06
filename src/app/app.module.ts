@@ -31,11 +31,8 @@ import { CoreComponent } from './core/core.component';
 import { ResisterComponent } from './layouts/frontend/components/resister/resister.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CoreModule } from './core/core.module';
-import { MatInputModule } from '@angular/material/input';
-import { CategoriesComponent } from './layouts/frontend/components/categories/categories.component';
-import { ImageSliderComponent } from './shared/components/image-slider/image-slider.component';
-import { CarouselModule } from 'ngx-bootstrap/carousel';
 
+// import { OrdersComponent } from './layouts/frontend/components/orders/orders.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,8 +45,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     DashboardComponent,
     CoreComponent,
     ResisterComponent,
-    CategoriesComponent,
-    ImageSliderComponent
+    // CategoriesComponent,
+    // ImageSliderComponent
     // CategoriesComponent,
     // LoginComponent,
     // CartComponent,
@@ -70,7 +67,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     MatFormFieldModule,
     FormsModule,
     ReactiveFormsModule,
-    CarouselModule.forRoot()
+    // CarouselModule.forRoot()
    
    
   ],
