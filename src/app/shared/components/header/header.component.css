@@ -2,16 +2,16 @@
   flex: 1 1 auto;
 } */
 .nav-link {
-  color: white;
+  color: black;
 }
 .active {
-  color: black;
+  color: white;
 }
 .header {
   margin-bottom: 0;
 }
 .search {
-  margin-left: 700px;
+  margin-left: 500px;
 }
 .one {
   margin: auto;
@@ -19,4 +19,7 @@
 }
 .buttton {
   background-color: darkgoldenrod;
+}
+.super {
+  background-color: lawngreen;
 }

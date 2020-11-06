@@ -47,7 +47,7 @@ export class ResisterComponent implements OnInit {
       ],
     });
   }
-
+  
 register() {
   this.securityService.register(this.regForm.value).subscribe(
     (response) => {

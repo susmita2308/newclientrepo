@@ -31,7 +31,8 @@ import { CoreComponent } from './core/core.component';
 import { ResisterComponent } from './layouts/frontend/components/resister/resister.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CoreModule } from './core/core.module';
-import { MatInputModule } from '@angular/material/input';
+
+import { OrdersComponent } from './layouts/frontend/components/orders/orders.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,10 +45,8 @@ import { MatInputModule } from '@angular/material/input';
     DashboardComponent,
     CoreComponent,
     ResisterComponent,
-    // CategoriesComponent,
-    // LoginComponent,
-    // CartComponent,
-    
+    OrdersComponent,
+   
    
   ],
   imports: [
