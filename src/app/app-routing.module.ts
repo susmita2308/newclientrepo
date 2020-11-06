@@ -5,7 +5,8 @@ import { FrontendComponent } from './layouts/frontend/frontend.component';
 import { PageNotFoundComponent } from './shared/components/page-not-found/page-not-found.component';
 
 const routes: Routes = [
- {path:'', component:BlankComponent, 
+  {path:'',component:BlankComponent },
+ {path:'frontend', component:FrontendComponent, 
  children: [
   {
     path: '',

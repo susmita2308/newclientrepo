@@ -1,14 +1,22 @@
+.active {
+  color: white;
+}
+
 .example-spacer {
   flex: 1 1 auto;
 }
 
-.active {
-  color: white;
+.nav-options {
+  margin-left: 500px;
 }
-.search {
-  margin-right: 400px;
+header {
+  margin-bottom: 50px;
 }
 
-/* .nav-options {
-  margin-left: auto;
-} */
+.header_text {
+  color: #ffc107;
+}
+
+a:hover {
+  color: white;
+}

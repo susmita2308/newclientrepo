@@ -12,27 +12,17 @@ import { PageNotFoundComponent } from './shared/components/page-not-found/page-n
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { LayoutModule } from '@angular/cdk/layout';
-
 import { SharedModule } from './shared/shared.module';
-// import { CategoriesComponent } from './layouts/frontend/components/categories/categories.component';
-// import { LoginComponent } from './layouts/frontend/components/login/login.component';
-// import { CartComponent } from './layouts/frontend/components/cart/cart.component';
 import { MaterialModule } from './shared/material/material.module';
 import { FrontendModule } from './features/frontend/frontend.module';
-import { FrontendRoutingModule } from './features/frontend/frontend-routing.module';
-import { MatIconModule } from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatButtonModule } from '@angular/material/button';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatListModule } from '@angular/material/list';
 import { CoreComponent } from './core/core.component';
 import { ResisterComponent } from './layouts/frontend/components/resister/resister.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CoreModule } from './core/core.module';
+import { ProductsComponent } from './layouts/frontend/components/products/products.component';
 
-// import { OrdersComponent } from './layouts/frontend/components/orders/orders.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,11 +35,7 @@ import { CoreModule } from './core/core.module';
     DashboardComponent,
     CoreComponent,
     ResisterComponent,
-    // CategoriesComponent,
-    // ImageSliderComponent
-    // CategoriesComponent,
-    // LoginComponent,
-    // CartComponent,
+    ProductsComponent,
     
    
   ],
@@ -67,7 +53,7 @@ import { CoreModule } from './core/core.module';
     MatFormFieldModule,
     FormsModule,
     ReactiveFormsModule,
-    // CarouselModule.forRoot()
+
    
    
   ],
