@@ -1,9 +1,11 @@
 .card {
   margin: auto;
+  margin-top: 50px;
   /* width: 50vw; */
 }
 .card-title {
   font: caption;
+  text-align: center;
 }
 .card1 {
   font: caption;
