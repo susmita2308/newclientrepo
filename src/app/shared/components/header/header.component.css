@@ -1,0 +1,22 @@
+/* .example-spacer {
+  flex: 1 1 auto;
+} */
+.nav-link {
+  color: white;
+}
+.active {
+  color: black;
+}
+.header {
+  margin-bottom: 0;
+}
+.search {
+  margin-left: 700px;
+}
+.one {
+  margin: auto;
+  font-style: italic;
+}
+.buttton {
+  background-color: darkgoldenrod;
+}
