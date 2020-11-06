@@ -1,5 +1,5 @@
 
-<form class="first" [formGroup]="regForm">
+<form  class="first" [formGroup]="regForm">
     <div class="card" style="width: 30rem;">
          <div class="card-body">
            <strong class="login1">REGISTARION</strong> <hr>
@@ -31,12 +31,14 @@
           <p>
             <mat-form-field appearance="outline">
               <mat-label> Address </mat-label> 
-               <input class="input" matInput placeholder="adress" formControlName="address"/>
+               <input class="input" matInput placeholder="address" formControlName="address"/>
               </mat-form-field>
           </p>
-             <button  mat-raised-button type="submit" style="color: black;" (click)="register()">Submit</button>
-            <button  mat-raised-button type="reset" style="color: black;">Cancel</button>
+          <div class="action">
+             <button  mat-raised-button type="submit" class="btn btn-dark"  (click)="register()">Submit</button>
+            <button  mat-raised-button type="reset" class="btn btn-dark" >Cancel</button>
         </div>
+      </div>
       </div> 
     
     </form>
