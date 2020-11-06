@@ -29,7 +29,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { CoreComponent } from './core/core.component';
 import { ResisterComponent } from './layouts/frontend/components/resister/resister.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CoreModule } from './core/core.module';
 import { MatInputModule } from '@angular/material/input';
 @NgModule({
@@ -61,13 +61,10 @@ import { MatInputModule } from '@angular/material/input';
     ReactiveFormsModule,
     SharedModule,
     FrontendModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatListModule,
     MatFormFieldModule,
-   MatInputModule
+    FormsModule,
+    ReactiveFormsModule
+   
    
   ],
   providers: [],
