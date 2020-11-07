@@ -1,12 +1,16 @@
 <div class="container">
   <div class="row" *ngFor="let i of [1,2,3,4,5]">
-    <div class="col" *ngFor="let i of [1,2,3,4]">
+    <div class="col" *ngFor="let j of photos">
       <div class="card border-dark" style="max-width: 18rem;">
         <div class="card-header">Header</div>
+        <img src={{j}} alt="..." class="img-thumbnail product-img">
         <div class="card-body text-dark">
           <h5 class="card-title">Dark card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <div class="card-footer">Footer</div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-warning btn-sm mr-2">Add to Cart</button>
+            <button type="button" class="btn btn-secondary btn-sm">View Details</button>
+          </div>
         
         </div>
 

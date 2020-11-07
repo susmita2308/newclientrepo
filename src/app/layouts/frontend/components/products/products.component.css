@@ -1,7 +1,11 @@
 .container {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .card {
   margin: 10px;
+}
+.product-img {
+  height: 100px;
+  width: 100px;
 }
